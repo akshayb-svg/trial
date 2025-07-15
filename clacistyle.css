@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.main{
+    width: max-content;
+    height: 30rem;
+    background-color: rgb(255, 225, 186);
+    border-radius: 2rem;
+    justify-self: center;
+}
+
+.text{
+    height: 60px;
+    width: auto;
+    background-size: cover;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    height: 55px;
+    width: auto;
+    border-radius: 5px;
+    background-color: rgb(8, 21, 145);
+    color: white;
+    text-align: end;
+}
+
+.num{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(8, 21, 145);
+    border: none;
+    border-radius: 5px;
+    background-image: radial-gradient(circle at center, rgba(0, 89, 255, 0.8), rgba(8, 21, 145, 0.8));
+}
+
+#zero{
+    width: 125px;
+}
+
+.operators{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#div{
+    height: 120px;
+}
+
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#inequal{
+    height: 120px;
+}
+
+button:hover{
+    background-image: radial-gradient(circle at center, rgba(0, 89, 255, 1), rgba(8, 21, 145, 1));
+    transform: scale(1.05);
+}
+
+.Zero{
+    display: flex;
+    justify-content: center;
+}
