@@ -1,20 +1,9 @@
-@media screen and (max-width: 320px) {
-    @media (max-width: 600px) {
-    body{
-        width: 100%;
-        height: 100%;
-        background-color: rgb(173, 226, 223);
-    }
-
-    body h2{
-        padding: 15px;
-        text-align: center;
-    }
+@media (min-width: 250px),(max-width: 600px) {
 
     label{
         width: 20%;
         height: 40px;
-        font-size: 1rem;
+        font-size: 0.5rem;
         align-content: center;
     }
 
@@ -88,7 +77,6 @@
         cursor: pointer;
     }
 }
-
 *{
     margin: 0;
     padding: 0;
