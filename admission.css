@@ -1,11 +1,21 @@
 @media screen and (max-width: 400px) {
     body h2 {
         font-size: 1.5rem;
+        padding: 10px;
     }
 
-    label, input, select, button {
-        width: 100%;
-        margin: 5px 0;
+    label{
+        width: 20%;
+        margin: 5px;
+        align-content: center;
+    }
+
+    input{
+        width: auto;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid transparent;
+        border-radius: 6px;
     }
 
     form {
