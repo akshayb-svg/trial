@@ -1,5 +1,5 @@
-@media screen and (max-width: 400px) {
-    body h2 {
+@media screen and (max-width: 320px) {
+    body{
         font-size: 1.5rem;
         padding: 10px;
     }
